@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
  * main - This is a description
- * return: hola
- *\
+ * Return: hola
+ */
 int main(void)
 {
 puts("\"Programming is like building a multilingual puzzle");
