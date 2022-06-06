@@ -1,5 +1,2 @@
 #!/bin/bash
-int main(void){
-printf("$CFILE");
-return0;
-}
+gcc $CFILE.c
