@@ -17,8 +17,8 @@ for (o = 49 + a; o <= 58; o++)
 for (m = 50 + b; m <= 59; m++)
 {
 putchar(n);
+putchar(o);
 putchar(m);
-putchar(l);
 if (n < 55)
 {
 putchar(44);
