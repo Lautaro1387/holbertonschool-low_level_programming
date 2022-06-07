@@ -10,7 +10,7 @@ int o = 49;
 int m;
 for (n = 48; n <= 57; n++)
 {
-for (m = 49; m <= 57; m++)
+for (m = o; m <= 57; m++)
 {
 putchar(n);
 if (n < 57)
