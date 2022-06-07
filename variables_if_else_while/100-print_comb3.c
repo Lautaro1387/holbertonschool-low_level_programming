@@ -20,7 +20,7 @@ putchar(44);
 putchar(32);
 }
 }
-d++
+d++;
 }
 putchar(10);
 return (0);
