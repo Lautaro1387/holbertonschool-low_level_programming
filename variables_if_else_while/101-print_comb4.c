@@ -10,11 +10,11 @@ int o;
 int m;
 int a = 1;
 int b = 1;
-for (n = 48; n <= 57; n++)
+for (n = 48; n <= 58; n++)
 {
-for (o = 49 + a; o <= 58; o++)
+for (o = 49 + a; o <= 57; o++)
 {
-for (m = 50 + b; m <= 59; m++)
+for (m = 50 + b; m <= 56; m++)
 {
 putchar(n);
 putchar(o);
