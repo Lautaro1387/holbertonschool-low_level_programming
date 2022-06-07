@@ -12,15 +12,15 @@ srand(time(0));
 n = rand() - RAND_MAX / 2;
 if (n > 0)
 {
-return("is positive");
+return ("is positive");
 }
-elif (n = 0)
+elif (n = 0);
 {
-return("is zero");
+return ("is zero");
 }
 else (n < 0) 
 {
-return("is negative");
+return ("is negative");
 }
 return (0);
 }
