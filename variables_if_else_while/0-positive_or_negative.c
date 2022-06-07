@@ -12,15 +12,15 @@ srand(time(0));
 n = rand() - RAND_MAX / 2;
 if (n > 0)
 {
-printf (n,"is positive\n");
+printf ("%i\nis positive", n);
 }
 if (n == 0)
 {
-printf(n,"is zero\n");
+printf("%i\nis zero", n);
 }
 if (n < 0) 
 {
-printf (n,"is negative\n");
+printf ("%i\nis negative", n);
 }
 return (0);
 }
