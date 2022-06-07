@@ -8,8 +8,8 @@ int main(void)
 int n;
 int o;
 int m;
-int a = 1;
-int b = 1;
+int a = 0;
+int b = 0;
 for (n = 48; n <= 58; n++)
 {
 for (o = 49 + a; o <= 57; o++)
