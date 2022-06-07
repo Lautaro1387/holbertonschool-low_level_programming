@@ -5,7 +5,7 @@
  */
 int main(void)
 {
-char ch
+char ch;
 for (ch = 'a'; ch <= 'z'; c++)
 {
 if (ch != 'q' && ch != 'e')
