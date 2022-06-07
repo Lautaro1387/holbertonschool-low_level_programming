@@ -18,6 +18,7 @@ for (l = p; l <= 57; l++)
 {
 putchar(n);
 putchar(m);
+putchar(l);
 if (n < 56)
 {
 putchar(44);
