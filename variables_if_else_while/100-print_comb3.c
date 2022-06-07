@@ -11,11 +11,14 @@ for (n = 48; n <= 57; n++)
 putchar(n);
 if (n < 57)
 {
-putchar(n);
 putchar(',');
 putchar(' ');
 }
-}
+else if (n > 0)
+{
 putchar(n);
+}
+}
+putchar('\n');
 return (0);
 }
