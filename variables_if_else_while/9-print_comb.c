@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  * main - Number
- * Return: a
+ * Return: finished
  */
 int main(void)
 {
