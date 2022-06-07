@@ -14,7 +14,7 @@ if (n > 0)
 {
 printf ("is positive");
 }
-if (n = 0)
+if (n == 0)
 {
 printf("is zero");
 }
