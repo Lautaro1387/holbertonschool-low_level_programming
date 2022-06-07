@@ -26,7 +26,7 @@ putchar(32);
 }
 o++;
 }
-p++
+p++;
 }
 putchar(10);
 return (0);
