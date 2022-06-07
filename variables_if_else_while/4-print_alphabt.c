@@ -5,13 +5,13 @@
  */
 int main(void)
 {
-char ch = 'a';
-char ch <= 'z';
-char ch2 != 'q';
-char ch3 != 'e';
-for (ch ; ch2 && ch3; c++)
+char ch
+for (ch = 'a'; ch = 'z'; c++)
 {
+	if (ch != 'q' && ch != 'e')
+	{
 	putchar(ch);
+	}
 }
 putchar('\n');
 return (0);
