@@ -14,11 +14,11 @@ if (n > 0)
 {
 printf ("is positive");
 }
-elif (n = 0);
+if (n=0)
 {
-printf ("is zero");
+printf("is zero")
 }
-else (n < 0) 
+if (n < 0) 
 {
 printf ("is negative");
 }
