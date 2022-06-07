@@ -6,28 +6,28 @@
 int main(void)
 {
 int n;
-int o = 49;
+int o;
 int m;
-int p = 50;
-int l;
+int a = 1;
+int b = 1;
 for (n = 48; n <= 57; n++)
 {
-for (m = o; m <= 57; m++)
+for (o = 49 + a; o <= 58; o++)
 {
-for (l = p; l <= 57; l++)
+for (m = 50 + b; m <= 59; m++)
 {
 putchar(n);
 putchar(m);
 putchar(l);
-if (n < 56)
+if (n < 55)
 {
 putchar(44);
 putchar(32);
 }
 }
-o++;
+b++;
 }
-p++;
+a++;
 }
 putchar(10);
 return (0);
