@@ -1,10 +1,12 @@
-#include <unist.h>
+#include "main.h"
 /**
  * main - Write a program that prints _putchar
  * Return: return...
  */
-int _putchar(char c)
+int main(void)
 {
+	char p = "main.h"
+	_putchar(p);
 	putchar(10);
-	return (write(1, &c, 1));
+	return (0);
 }
