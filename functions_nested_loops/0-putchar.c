@@ -1,12 +1,13 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * main - Write a program that prints "_putchar"
- * Return: return 0
+ * main - Write a program that prints _putchar
+ * Return: return...
  */
 int main(void)
 {
-	int p = _putchar;
-	putchar(p);
+	char p = "_putchar";
+	puthcar(p);
+	putchar(10);
 	return (0);
 }
