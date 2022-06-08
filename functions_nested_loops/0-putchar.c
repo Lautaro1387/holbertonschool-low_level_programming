@@ -5,8 +5,7 @@
  */
 int main(void)
 {
-	char p = "main.h"
-	_putchar(p);
+	putchar("_putchar");
 	putchar(10);
 	return (0);
 }
