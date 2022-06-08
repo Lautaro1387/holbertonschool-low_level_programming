@@ -8,26 +8,25 @@ int main(void)
 int n;
 int e;
 int m;
-int a = 0;
-int b = 0;
-for (n = 48 ; n <= 55 ; n++)
+for (n = 48 ; n < 58 ; n++)
 {
-for (e = 49 + a ; e <= 56 ; e++)
+for (e = 49; e < 58 ; e++)
 {
-for (m = 50 + b ; m <= 57; m++)
+for (m = 50; m < 58; m++)
+{
+if (m > e && e > n)
 {
 putchar (n);
 putchar (e);
 putchar (m);
-if (n < 55)
+if (n != 55 || e != 56)
 {
 putchar (44);
 putchar (32);
 }
 }
-b++;
 }
-a++;
+}
 }
 putchar (10);
 return (0);
