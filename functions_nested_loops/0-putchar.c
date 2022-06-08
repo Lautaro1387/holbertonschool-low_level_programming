@@ -5,15 +5,8 @@
  */
 int main(void)
 {
-	_putchar('_');
-	_putchar('p');
-	_putchar('u');
-	_putchar('t');
-	_putchar('c');
-	_putchar('h');
-	_putchar('a');
-	_putchar('r');
-	_putchar(p);
+	char a = "_putchar";
+	putchar(a);
 	putchar(10);
 	return (0);
 }
