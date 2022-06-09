@@ -3,7 +3,7 @@
  * main - Write a function that prints the alphabet, in lowercase.
  * Return: Alphabet.
  */
-void print_alphabet(void)
+void print_alphabet_x(void)
 {
 	int x;
 	for(x = 'a'; x <= 'z'; x++)
@@ -11,5 +11,5 @@ void print_alphabet(void)
 		_putchar(x);
 	}
 	_putchar(10);
-	return(0);
+	return (0);
 }
