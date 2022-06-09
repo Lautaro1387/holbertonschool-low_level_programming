@@ -3,8 +3,9 @@
  * main - Write a function that prints the alphabet, in lowercase.
  * Return: Alphabet.
  */
-void print_alphabet_x(void)
+int main(void)
 {
+	print_alphabet();
 	int x;
 	for(x = 'a'; x <= 'z'; x++)
 	{
