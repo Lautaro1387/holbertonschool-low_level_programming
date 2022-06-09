@@ -1,4 +1,5 @@
 #include "main.h"
+
 /**
  * main - Write a function that prints the alphabet, in lowercase.
  * Return: Alphabet.
@@ -11,5 +12,5 @@ void print_alphabet(void)
 	{
 		_putchar(x);
 	}
-	_putchar('\n');
+	_putchar(10);
 }
