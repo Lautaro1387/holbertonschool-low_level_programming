@@ -6,11 +6,10 @@
 int main(void)
 {
 	int x;
-	print_alphabet();
 	for(x = 'a'; x <= 'z'; x++)
 	{
-		_putchar(x);
+		print_alphabet(x);
 	}
-	_putchar(10);
+	print_alphabet(10);
 	return (0);
 }
