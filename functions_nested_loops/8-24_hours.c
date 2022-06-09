@@ -14,8 +14,6 @@ void jack_bauer(void)
 	{
 	_putchar(min1);
 	_putchar(hors1);
-	}
-	}
 	for (min2 = '2'; min2 <= '3'; min2++)
 	{
 	for (hors2 = '5'; hors2 <= '9'; hors2++)
@@ -24,6 +22,8 @@ void jack_bauer(void)
 	_putchar(min2);
 	_putchar(hors2);
 	_putchar(10);
+	}
+	}
 	}
 	}
 }
