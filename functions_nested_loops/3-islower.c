@@ -2,9 +2,10 @@
 #include <ctype.h>
 
 /**
- * _islower(int c) - Checks for lowercase character.
+ * _islower - Checks for lowercase character.
+ * @c: Tu check
  * Return: 1 if c and 0 otherwise.
- */
+ **/
 int _islower(int c)
 {
 if (islower(c))
