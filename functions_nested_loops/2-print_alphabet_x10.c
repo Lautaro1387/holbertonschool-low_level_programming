@@ -11,7 +11,7 @@ void print_alphabet_x10(void)
 	{
 	if (alphabet < 'z')
 	{
-	(alphabet + 1);
+	alphabet++;
 	}
 	_putchar(alphabet);
 	}
