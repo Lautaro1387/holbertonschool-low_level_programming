@@ -1,5 +1,5 @@
 #include "main.h"
-#include <ctype.h> 
+#include <ctype.h>
 /**
  * print_sign - Prints the sign of a number.
  * @n: The check
