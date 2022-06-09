@@ -10,7 +10,7 @@ void jack_bauer(void)
 	int min1, min2, hors1, hors2;
 	for (min1 = '0'; min1 <= '2'; min1++)
 	{
-	for (hors1 = '0'; hors1 <= '3'; hors1)
+	for (hors1 = '0'; hors1 <= '3'; hors1++)
 	{
 	_putchar(min1);
 	_putchar(hors1);
