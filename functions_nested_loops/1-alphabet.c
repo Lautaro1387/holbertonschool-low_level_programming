@@ -5,8 +5,8 @@
  */
 int main(void)
 {
-	print_alphabet();
 	int x;
+	print_alphabet();
 	for(x = 'a'; x <= 'z'; x++)
 	{
 		_putchar(x);
