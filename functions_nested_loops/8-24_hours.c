@@ -25,4 +25,5 @@ void jack_bauer(void)
 	_putchar(hors2);
 	}
 	}
+	_putchar(10);
 }
