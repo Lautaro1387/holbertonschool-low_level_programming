@@ -8,7 +8,8 @@
  */
 int _abs(int n)
 {
-int n = abs(n);
-_putchar(n);
+int a = abs(n);
+
+_putchar(a);
 return (0);
 }
