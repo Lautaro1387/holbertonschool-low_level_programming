@@ -15,15 +15,15 @@ void jack_bauer(void)
 	{
 	_putchar(hors1);
 	_putchar(hors2);
-	if (hors1 > 48)
+	if (hors1 >= 48)
 	{
 		_putchar(58);
 	}
-	if (hors2 > 48)
+	if (hors2 >= 48)
 	{
 		_putchar(58);
 	}
-	for (min1 = 48; min1 <= 57; min1++)
+	for (min1 = 48; min1 <= 53; min1++)
 	{
 	for (min2 = 48; min2 <= 57; min2++)
 	{
