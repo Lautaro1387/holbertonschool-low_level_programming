@@ -16,9 +16,10 @@ for (n = n; n <= 98; n++)
 printf("%d, ", n);
 printf("\n");
 }
-else if(n >= 0)
+if(n > 98)
 {
 printf("%d, ", n);
+printf("\n");
 }
 }
 }
