@@ -2,7 +2,7 @@
 #include <ctype.h>
 #include <stdlib.h>
 /**
- * jacl_bauer - Prints the sign of a number.
+ * jack_bauer - Prints the sign of a number.
  * Return: Anything.
  */
 void jack_bauer(void)
@@ -15,7 +15,11 @@ void jack_bauer(void)
 	{
 	_putchar(hors1);
 	_putchar(hors2);
-	if (hors1 < 56)
+	if (hors1 > 48)
+	{
+		_putchar(58);
+	}
+	if (hors2 > 48)
 	{
 		_putchar(58);
 	}
