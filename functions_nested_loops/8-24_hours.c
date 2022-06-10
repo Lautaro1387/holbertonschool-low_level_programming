@@ -15,11 +15,9 @@ void jack_bauer(void)
 	{
 	_putchar(hors1);
 	_putchar(hors2);
-	if (hors2 >= 48)
+	if (hors2 <= 48)
 	{
 		_putchar(58);
-	}
-	}
 	}
 	for (min1 = 48; min1 <= 53; min1++)
 	{
@@ -28,6 +26,8 @@ void jack_bauer(void)
 	_putchar(min1);
 	_putchar(min2);
 	_putchar(10);
+	}
+	}
 	}
 	}
 }
