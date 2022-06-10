@@ -10,9 +10,8 @@
 void print_to_98(int n)
 {
 
-for (n = '0'; n <= '98'; n++)
+for (n = 0 <= 98; n++)
 {
-_putchar(n);
 if (n <= 98)
 {
 printf("%d\n", 98);
@@ -22,5 +21,6 @@ else
 {
 _putchar(32);
 }
+_putchar(n);
 }
 }
