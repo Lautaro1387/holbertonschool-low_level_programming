@@ -11,7 +11,7 @@ int main(void)
 int a, b, c;
 int largest;
 
-largest = largest_number(a, b, c);
+int largest = largest_number(a, b, c);
 if (a >= b && a >= c)
 {
 printf("%d is the largest number\n", largest);
