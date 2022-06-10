@@ -14,10 +14,10 @@ void jack_bauer(void)
 	for (min = 48; min <= 51; min++)
 	{
 	_putchar(min);
+	_putchar(hors)
 	_putchar(58);
 	_putchar(hors);
-	_putchar(min + 1);
-	_putchar(hors + 1);
+	_putchar(min);
 	_putchar(10);
 	}
 	}
