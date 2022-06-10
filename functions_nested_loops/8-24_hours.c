@@ -9,15 +9,15 @@ void jack_bauer(void)
 {
 	int min, hors;
 
-	for (hors = 48; hors <= 51; hors++)
+	for (hors = 48; hors <= 24; hors++)
 	{
-	for (min = 48; min <= 51; min++)
+	for (min = 48; min <= 60; min++)
 	{
-	_putchar(hors);
-	_putchar(min);
+	_putchar((hors % 10) '0');
+	_putchar((min % 10 ) '0');
 	_putchar(58);
-	_putchar(hors);
-	_putchar(min);
+	_putchar((hors / 10) '0');
+	_putchar((min / 10) '0');
 	_putchar(10);
 	}
 	}
