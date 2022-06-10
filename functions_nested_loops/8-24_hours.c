@@ -16,8 +16,8 @@ void jack_bauer(void)
 	_putchar(min);
 	_putchar(hors);
 	_putchar(58);
-	_putchar(hors);
 	_putchar(min);
+	_putchar(hors);
 	_putchar(10);
 	}
 	}
