@@ -3,7 +3,9 @@
 #include <stdlib.h>
 /**
  * times_table - Prints the sign of a number.
- * Return: Anything.
+ * @a: Number
+ * @b: Number
+ * Return: sum a + b
  */
 int add(int a, int b)
 {
