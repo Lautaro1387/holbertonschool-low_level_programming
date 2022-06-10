@@ -40,4 +40,8 @@ void jack_bauer(void);
  * Function that prints the 9 times table, starting with 0.
  */
 void times_table(void);
+/**
+ * Function that adds two integers and returns the result.
+ */
+int add(int a, int b);
 #endif
