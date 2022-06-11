@@ -18,6 +18,8 @@ c = 0;
 largest = largest_number(a, b, c);
 
 printf("%d is the largest number\n", largest);
-
+scanf("%d", a);
+scanf("%d", b);
+scanf("%d", c);
 return (0);
 }
