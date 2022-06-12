@@ -1,6 +1,10 @@
 #ifndef MAIN_H
 #define MAIN_H
 /**
+ * Program that prints _putchar.
+ */
+int _putchar(char);
+/**
  * Function that checks for uppercase character.
  */
 int _isupper(int c);
@@ -12,4 +16,8 @@ int _isdigit(int c);
  * Function that multiplies two integers.
  */
 int mul(int a, int b);
+/**
+ * Function that prints the numbers, from 0 to 9.
+ */
+void print_numbers(void);
 #endif
