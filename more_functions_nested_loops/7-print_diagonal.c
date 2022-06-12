@@ -14,5 +14,8 @@ for (a = 1; a <= n; a++)
 _putchar(92);
 }
 }
+else if (n <= 0)
+{
 _putchar(10);
+}
 }
