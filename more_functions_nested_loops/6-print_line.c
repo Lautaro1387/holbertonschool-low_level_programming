@@ -9,6 +9,8 @@ if (n > 0)
 {
 _putchar('_');
 }
-else
+else if (n <= 0)
+{
 _putchar(10);
+}
 }
