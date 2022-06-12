@@ -8,13 +8,9 @@ int main(void)
 {
 int test;
 
-for (test = 0; test <= 100; test++)
+for (test = 1; test <= 100; test++)
 {
-	if (test >= 0)
-	{
-		printf("%d", test);
-	}
-	else if (test % 3 == 0)
+	if (test % 3 == 0)
 	{
 		printf("Fizz");
 	}
@@ -25,6 +21,10 @@ for (test = 0; test <= 100; test++)
 	else if (test % 3 == 0 && test % 5 == 0)
 	{
 		printf("FizzBuzz");
+	}
+	else
+	{
+		printf("%d", test);
 	}
 if (test != 100)
 {
