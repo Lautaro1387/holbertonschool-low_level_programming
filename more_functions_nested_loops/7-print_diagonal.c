@@ -12,6 +12,7 @@ if (n > 0)
 for (a = 1; a <= n; a++)
 {
 _putchar(92);
+_putchar(10);
 }
 }
 else if (n <= 0)
