@@ -3,7 +3,7 @@
 /**
  * Program that prints _putchar.
  */
-int _putchar(char);
+int _putchar(char c);
 /**
  * Function that checks for uppercase character.
  */

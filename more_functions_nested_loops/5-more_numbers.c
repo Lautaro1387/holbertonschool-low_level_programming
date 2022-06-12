@@ -5,17 +5,15 @@
 void more_numbers(void)
 {
 int times;
-int numbers;
+int c;
 
-for (times = 0; times <= 10; times++)
+for (times = 0; times < 10; times++)
 {
-for (numbers = 0; numbers <= 14; numbers++)
+for (c = 0; c <= 14; c++)
 {
-if (numbers >= 10)
-{
-_putchar((numbers / 10) + '0');
-_putchar((numbers % 10) + '0');
-}
+if (c >= 10)
+_putchar(c / 10 + '0');
+_putchar(c % 10 + '0');
 }
 _putchar(10);
 }
