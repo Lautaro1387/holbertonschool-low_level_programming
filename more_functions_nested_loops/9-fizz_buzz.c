@@ -23,4 +23,3 @@ for (test = 0; test <= 100; test++)
 		_putchar(32);
 	}
 }
-}
