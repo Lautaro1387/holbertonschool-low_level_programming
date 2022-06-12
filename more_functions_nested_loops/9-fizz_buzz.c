@@ -28,7 +28,7 @@ for (test = 0; test <= 100; test++)
 	}
 if (test != 100)
 {
-	printf(' ');
+	printf(" ");
 }
 }
 printf("\n");
