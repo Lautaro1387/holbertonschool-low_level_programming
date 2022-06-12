@@ -15,8 +15,8 @@ if (numbers >= 0)
 {
 _putchar((numbers / 10) + '0');
 _putchar((numbers % 10) + '0');
+}
+}
+}
 _putchar(10);
-}
-}
-}
 }
