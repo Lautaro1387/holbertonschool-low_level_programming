@@ -19,7 +19,7 @@ else if (size > 0)
 	{
 	_putchar(35);
 	}
-	}
 	_putchar(10);
+	}
 }
 }
