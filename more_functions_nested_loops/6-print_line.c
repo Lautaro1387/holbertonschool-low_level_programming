@@ -5,15 +5,16 @@
  */
 void print_line(int n)
 {
-for (n = 0; n >= 0; n++)
-{
+int a;
 if (n > 0)
+{
+for (a = 1; a <= n; a++)
 {
 _putchar('_');
 }
-else if (n <= 0)
+}
+else
 {
 _putchar(10);
-}
 }
 }
