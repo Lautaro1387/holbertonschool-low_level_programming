@@ -1,9 +1,10 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * 
+ * main - Test the 1 to 100.
+ * Return: 0.
  */
-void main(void)
+int main(void)
 {
 int test;
 
@@ -26,5 +27,6 @@ for (test = 0; test <= 100; test++)
 		printf(" ");
 	}
 }
-printf("\n";)
+printf("\n");
+return (0);
 }
