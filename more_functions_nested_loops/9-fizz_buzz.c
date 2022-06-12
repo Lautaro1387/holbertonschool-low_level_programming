@@ -10,6 +10,10 @@ int test;
 
 for (test = 0; test <= 100; test++)
 {
+	if (test >= 0)
+	{
+		printf("%d", test);
+	}
 	if (test % 3 == 0)
 	{
 		printf("Fizz");
