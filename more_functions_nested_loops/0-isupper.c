@@ -6,13 +6,9 @@
  */
 int _isupper(int c)
 {
-if (c = 'C')
+if (c = 'A'; c = 'Z'; c++)
 {
-for (c = 'A'; c = 'Z'; c++)
-{
-_putchar(c);
 return (1);
-}
 }
 else
 {
