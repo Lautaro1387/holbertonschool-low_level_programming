@@ -3,7 +3,7 @@
 /**
  * 
  */
-int Fizz_buzz(int test)
+void Fizz_buzz(int test)
 {
 for (test = 0; test <= 100; test++)
 {
@@ -22,4 +22,5 @@ for (test = 0; test <= 100; test++)
 		printf("FizzBuzz");
 		_putchar(32);
 	}
+}
 }
