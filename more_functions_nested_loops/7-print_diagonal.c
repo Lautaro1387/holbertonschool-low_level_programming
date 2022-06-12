@@ -13,9 +13,9 @@ if (n > 0)
 	_putchar(92);
 	_putchar(10);
 
-for (a = 1; a <= n; a++)
+for (a = 2; a <= n; a++)
 {
-	for (b = 1; b <= a; b++)
+	for (b = 2; b <= a; b++)
 	_putchar(' ');
 	_putchar(92);
 	_putchar(10);
