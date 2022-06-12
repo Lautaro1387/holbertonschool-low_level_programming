@@ -11,8 +11,8 @@ for (times = 0; times <= 10; times++)
 {
 for (numbers = 0; numbers <= 14; numbers++)
 {
-_putchar(times);
-_putchar(numbers);
+_putchar((numbers / 10) + '0');
+_putchar((numbers % 10) + '0');
 }
 }
 _putchar(10);
