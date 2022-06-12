@@ -13,9 +13,9 @@ for (a = 1; a <= n; a++)
 _putchar('_');
 }
 }
-_putchar(10);
 else
 {
 _putchar(10);
 }
+_putchar(10);
 }
