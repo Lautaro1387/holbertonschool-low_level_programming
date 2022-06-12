@@ -14,7 +14,7 @@ for (test = 0; test <= 100; test++)
 	{
 		printf("%d", test);
 	}
-	if (test % 3 == 0)
+	else if (test % 3 == 0)
 	{
 		printf("Fizz");
 	}
@@ -26,6 +26,10 @@ for (test = 0; test <= 100; test++)
 	{
 		printf("FizzBuzz");
 	}
+if (test != 100)
+{
+	printf(' ');
+}
 }
 printf("\n");
 return (0);
