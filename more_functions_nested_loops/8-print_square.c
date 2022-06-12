@@ -15,12 +15,11 @@ else if (size > 0)
 {
 	for (a = 1; a <= size; a++)
 	{
-	_putchar(35);
-	}
-	_putchar(10);
 	for (b = 1; b <= size; b++)
 	{
-	_putchar(10);
+	_putchar(35);
 	}
+	}
+	_putchar(10);
 }
 }
