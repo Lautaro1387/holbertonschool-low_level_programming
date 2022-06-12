@@ -12,15 +12,19 @@ for (test = 0; test <= 100; test++)
 		printf("Fizz");
 		_putchar(32);
 	}
-	else if (test % 5)
+	else if (test % 5 == 0)
 	{
 		printf("Buzz");
 		_putchar(32);
 	}
-	else if (test % 3 && test % 5)
+	else if (test % 15 == 0)
 	{
 		printf("FizzBuzz");
 		_putchar(32);
+	}
+	if (test != 100)
+	{
+		printf(" ");
 	}
 }
 }
