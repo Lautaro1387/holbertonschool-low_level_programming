@@ -18,7 +18,7 @@ for (test = 1; test <= 100; test++)
 	{
 		printf("Buzz");
 	}
-	else if (test % 15 == 0)
+	else if ((test % 15) == 0)
 	{
 		printf("FizzBuzz");
 	}
