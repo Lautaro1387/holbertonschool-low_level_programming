@@ -1,15 +1,15 @@
 #ifndef MAIN_H
 #define MAIN_H
 /**
- * Program that prints _putchar, followed by a new line.
+ * Program that prints _putchar.
  */
 int _putchar(char);
 /**
- * Function that prints the alphabet, in lowercase, followed by a new line.
+ * Function that prints the alphabet, in lowercase.
  */
 void print_alphabet(void);
 /**
- * Function that prints 10 times the alphabet, in lowercase, followed by a new line.
+ * Function that prints 10 times the alphabet, in lowercase.
  */
 void print_alphabet_x10(void);
 /**
@@ -48,4 +48,8 @@ int add(int a, int b);
  * Function that prints all natural numbers from n to 98.
  */
 void print_to_98(int n);
+/**
+ * Function that prints the n times table, starting with 0.
+ */
+void print_times_table(int n);
 #endif
