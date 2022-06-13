@@ -1,12 +1,13 @@
 #include "main.h"
+#include <stdio.h>
 /**
  * main - Print multiples of 3 or 5.
  * Return: by a new line.
  */
 int main(void)
 {
-unsigned long int sum, sum3, sum5;
-int i;
+	unsigned long int sum, sum3, sum5;
+	int i;
 
 	sum3 = 0;
 	sum5 = 0;
