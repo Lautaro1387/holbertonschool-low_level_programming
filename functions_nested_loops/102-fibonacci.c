@@ -18,11 +18,11 @@ int main(void)
 			printf("%ld, ", j);
 		} else
 		{
-			printf("\n", j);
+			printf("%ld\n", j);
 		}
 		next = j + k;
 		j = k;
-
+		k = next
 	}
 
 	return (0);
