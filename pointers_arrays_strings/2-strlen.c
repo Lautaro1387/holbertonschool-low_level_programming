@@ -4,8 +4,10 @@
 /**
  * _strlen - Function that returns the length of a string.
  * @s: char.
+ * Return: strlen *s.
  */
 int _strlen(char *s)
 {
-return	(strlen (s));
+
+return (strlen(s));
 }
