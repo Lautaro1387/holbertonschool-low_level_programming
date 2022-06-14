@@ -2,6 +2,7 @@
 #include <stdio.h>
 /**
  * reset_to_98 -Function that takes a pointer to an int as parameter.
+ * @n: Argument.
  */
 void reset_to_98(int *n)
 {
