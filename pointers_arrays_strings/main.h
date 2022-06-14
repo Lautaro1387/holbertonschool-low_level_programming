@@ -12,4 +12,8 @@ void swap_int(int *a, int *b);
  * Function that returns the length of a string.
  */
 int _strlen(char *s);
+/**
+ * Function that prints a string, followed by a new line, to stdout.
+ */
+void _puts(char *str);
 #endif
