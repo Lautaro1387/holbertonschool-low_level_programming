@@ -16,4 +16,8 @@ int _strlen(char *s);
  * Function that prints a string, followed by a new line, to stdout.
  */
 void _puts(char *str);
+/**
+ * Function that prints a string, in reverse, followed by a new line.
+ */
+void print_rev(char *s);
 #endif
