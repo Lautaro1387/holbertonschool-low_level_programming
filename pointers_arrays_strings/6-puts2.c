@@ -10,10 +10,13 @@ void puts2(char *str)
 	int a, b, c;
 
 	b = strlen(str);
-	for (a = 0; a <= b * 2; a++)
+
+	for (a = 0; a < b; a += 2)
 	{
-		c = str[a];
-		str[a] = str[b / 2];
-		str[b / 2] = c;
+		_putchar(str[a]);
+		if (b >= 0)
+		{
+		_putchar(str[b / 2]);
+		}
 	}
 }
