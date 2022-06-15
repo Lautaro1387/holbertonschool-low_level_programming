@@ -14,9 +14,9 @@ void puts2(char *str)
 	for (a = 0; a < b; a += 2)
 	{
 		_putchar(str[a]);
-		if (b >= 0)
+		if (b % 2 == 0)
 		{
-		_putchar(str[b / 2]);
+		_putchar(str[a]);
 		}
 	}
 }
