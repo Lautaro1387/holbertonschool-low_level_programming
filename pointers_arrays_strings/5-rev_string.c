@@ -4,13 +4,13 @@
  */
 void rev_string(char *s)
 {
-	int a, b, c;
+	int a, b;
 
 	a = strlen(s);
 
-	for (b = a - 1; b != 0; b++)
+	for (b = a - 1; b >= 0; b--)
 	{
-		_putchar(b[s]);
+		_putchar(s[b]);
 	}
 	_putchar(10);
 }
