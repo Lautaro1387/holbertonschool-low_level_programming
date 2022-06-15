@@ -7,7 +7,7 @@
  */
 void puts2(char *str)
 {
-	int a, b, c;
+	int a, b;
 
 	b = strlen(str);
 
