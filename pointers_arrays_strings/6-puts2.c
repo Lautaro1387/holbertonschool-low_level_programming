@@ -14,9 +14,10 @@ void puts2(char *str)
 	for (a = 0; a < b; a += 2)
 	{
 		_putchar(str[a]);
-		if (b % 2 == 0)
+		if (a % 2 == 0)
 		{
 		_putchar(str[a]);
 		}
 	}
+	_putchar(10);
 }
