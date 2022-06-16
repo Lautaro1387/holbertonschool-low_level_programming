@@ -13,13 +13,14 @@ void puts_half(char *str)
 	c = (b - 1) / 2;
 	for (a = 0; a < b; a++)
 	{
-		if (a == 0)
+		if (a / b == 0)
 		{
-		str[a] = c;
 		_putchar(str[a]);
 		}
-		else if (b == 0)
+		else if (a % b == 0)
 		{
+		str[a] = c;
+		c = str[a];
 		_putchar(str[a]);
 		}
 	}
