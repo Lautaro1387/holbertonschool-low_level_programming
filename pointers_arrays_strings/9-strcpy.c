@@ -11,10 +11,10 @@ char *_strcpy(char *dest, char *src)
 {
 	int fin;
 
-	for (fin = 0; fin < 0; fin++)
+	for (fin = 0; src[i] != 0; fin++)
 	{
-		src[fin] = dest[fin];
+		dest[fin] = src[fin];
 	}
-	_putchar(strcpy(dest, src));
+	dest = '\0'
 	return (dest);
 }
