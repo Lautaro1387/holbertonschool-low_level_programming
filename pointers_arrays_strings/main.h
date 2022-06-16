@@ -45,4 +45,12 @@ char *_strcpy(char *dest, char *src);
  * Function that convert a string to an integer.
  */
 int _atoi(char *s);
+/**
+ * Function that concatenates two strings.
+ */
+char *_strcat(char *dest, char *src);
+/**
+ * Function that concatenates two strings.
+ */
+char *_strncat(char *dest, char *src, int n);
 #endif
