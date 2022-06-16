@@ -1,7 +1,6 @@
 #include "main.h"
 #include <string.h>
 #include <stdio.h>
-#include <cstring>
 /**
  * _strcpy - Function.
  * @dest: Argument.
