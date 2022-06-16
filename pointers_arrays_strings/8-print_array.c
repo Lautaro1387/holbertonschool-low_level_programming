@@ -7,7 +7,8 @@
  */
 void print_array(int *a, int n)
 {
-	int n = strlen(a);
+	int b = strlen(a);
+	b = n;
 
 	printf("%d", a[n]);
 	_putchar(10);
