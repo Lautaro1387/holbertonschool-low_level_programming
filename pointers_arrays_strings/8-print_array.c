@@ -3,7 +3,8 @@
 #include <stdio.h>
 /**
  * print_array - Function that prints n elements.
- * @a, @b: elements.
+ * @a: element.
+ * @n: element.
  */
 void print_array(int *a, int n)
 {
@@ -13,5 +14,5 @@ void print_array(int *a, int n)
 	{
 		printf("%d, ", a[b]);
 	}
-	_putchar(10)
-;}
+	_putchar(10);
+}
