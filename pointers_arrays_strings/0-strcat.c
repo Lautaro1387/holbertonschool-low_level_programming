@@ -9,13 +9,15 @@
 char *_strcat(char *dest, char *src)
 {
 	int a, b;
-	for (a = 0; src[a]; a++)
+
+	for (a = 0; src[a] != 0; a++)
 	{
 		dest[a] = src[a];
 	}
-	for (b = 0; src[b]; b++)
+	for (b = 0; src[b] != 0; b++)
 	{
 		src[b] = dest[b];
 	}
 	src[b] = '\0';
 	return (dest);
+}
