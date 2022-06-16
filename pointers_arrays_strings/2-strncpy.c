@@ -10,11 +10,11 @@
  */
 char *_strncpy(char *dest, char *src, int n)
 {
-	int a, b , c;
+	int a, b, c;
 
-	for (a = 0; dest[a] != 0; a++)
+	for (a = 0; a < n && dest[a] != 0; a++)
 	{
-	for (b = 0; src[b] !=0; b++)
+	for (b = 0; b < n && src[b] != 0; b++)
 	{
 	c = dest[a];
 	dest[a] = src[b];
@@ -22,5 +22,5 @@ char *_strncpy(char *dest, char *src, int n)
 	a++;
 	}
 	}
-	return (c);
+	return (dest);
 }
