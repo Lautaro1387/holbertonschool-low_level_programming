@@ -3,11 +3,12 @@
 #include <stdio.h>
 #include <cstring>
 /**
- * strcpy - Function.
+ * _strcpy - Function.
  * @dest: Argument.
  * @src: Argument.
+ * Return: dest.
  */
 char *_strcpy(char *dest, char *src)
 {
-	strcpy(dest, src);
-	return(dest);
+	strcpy(*dest, *src);
+	return (*dest);
