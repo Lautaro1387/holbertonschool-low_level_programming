@@ -11,15 +11,16 @@ int _strcmp(char *s1, char *s2)
 {
 	int comp = 0;
 
-	for (s1 = 0; s1 != '\0'; s1++)
+	for (comp = 0; s1[comp] != '\0'; comp++)
 	{
-		if (s1 == s2)
+		if (comp == s1) || (comp == s2)
 		{
 			s1++;
 			s2++;
 		}
-		else if ((s1 == '\0' && s2 != '\0'))
+		else if ((comp == '\0' && comp != '\0'))
 		{
 			comp = 1;
 		}
 	}
+}
