@@ -8,20 +8,20 @@
  */
 char *cap_string(char *a)
 {
-	int b;
+	int b, c;
+	char sep[13] = {' ', '\t', '\n', ',', ';', '.', '!', '?', '"', '(', ')', '{', '}'}
+
 
 	for (b = 0; b != '\0'; b++)
 	{
-		if (b[a] >= 65 && b[a] <= 90)
+		if (b[a] >= 97 && b[a] <= 122)
 		{
-			b[a] = b[a];
-		}
-		else if (b[a] == ' ' && b[a] == '\n')
-		{
-			b[a] = b[a];
+			c = b[a];
+			b[a] = sep[13];
+			sep[13] = c;
 		}
 	}
-	return (a);
+	return (c);
 }
 
 
