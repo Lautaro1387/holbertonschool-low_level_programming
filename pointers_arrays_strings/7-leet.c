@@ -17,9 +17,9 @@ char *leet(char *a)
 	{
 	for (f = 0; c[f] != '\0'; f++)
 	{
-		if (a[e] == c[f] || a[e] == b[f])
+		if (a[e] == c[f] || a[e] == d[f])
 		{
-			c[e] = d[f];
+			c[e] = b[f];
 		}
 	}
 	}
