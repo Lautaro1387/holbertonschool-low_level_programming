@@ -16,3 +16,4 @@ char *string_toupper(char *s)
 			a[s] = a[s];
 		}
 	}
+}
