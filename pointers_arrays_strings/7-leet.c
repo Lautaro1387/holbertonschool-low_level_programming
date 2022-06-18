@@ -9,9 +9,9 @@
 char *leet(char *a)
 {
 	int e , f;
-	char b[] {4, 3, 0, 7, 1};
-	char c[] {'a', 'e', 'o', 't', 'l'};
-	char d[] {'A', 'E', 'O', 'T', 'L'};
+	char b[] = {4, 3, 0, 7, 1};
+	char c[] = {'a', 'e', 'o', 't', 'l'};
+	char d[] = {'A', 'E', 'O', 'T', 'L'};
 
 	for (e = 0; e[a] != '\0'; e++)
 	{
