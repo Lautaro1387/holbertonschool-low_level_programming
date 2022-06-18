@@ -30,5 +30,5 @@ int _strcmp(char *s1, char *s2)
 			comp1 = 2;
 		}
 	}
-	return (s1[comp1]);
+	return (*s1 - *s2);
 }
