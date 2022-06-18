@@ -3,7 +3,7 @@
 #include <string.h>
 /**
  * cap_string - Function that capitalizes.
- * @a: Pointer element.
+ * @a: Pointer.
  * Return: Capitalizes all words.
  */
 char *cap_string(char *a)
@@ -11,7 +11,7 @@ char *cap_string(char *a)
 	int b, c;
 	char sep[13] = {' ', '\t', '\n', ',', ';', '.', '!', '?', '"', '(', ')', '{', '}'};
 
-	for (b = 0; b != '\0'; b++)
+	for (b = 0; b[a] != '\0'; b++)
 	{
 		if (b == 0 && b[a] >= 97 && b[a] <= 122)
 		{
@@ -21,9 +21,9 @@ char *cap_string(char *a)
 		{
 			if (a[b] == sep[c])
 			{
-				if (a[b + 1] > 'a' && a[b + 1] <= 'z')
+				if (a[b + 1] >= 97 && a[b + 1] <= 122)
 				{
-					a[b + 1] -= 32;	
+					a[b + 1] -= 32;
 				}
 			}
 		}
