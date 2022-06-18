@@ -17,6 +17,7 @@ char *cap_string(char *a)
 			b[a] = b[a];
 		}
 	}
+	return (a);
 }
 
 
