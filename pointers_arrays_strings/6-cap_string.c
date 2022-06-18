@@ -9,8 +9,7 @@
 char *cap_string(char *a)
 {
 	int b, c;
-	char sep[13] = {' ', '\t', '\n', ',', ';', '.', '!', '?', '"', '(', ')', '{', '}'}
-
+	char sep[13] = {' ', '\t', '\n', ',', ';', '.', '!', '?', '"', '(', ')', '{', '}'};
 
 	for (b = 0; b != '\0'; b++)
 	{
@@ -21,7 +20,7 @@ char *cap_string(char *a)
 			sep[13] = c;
 		}
 	}
-	return (c);
+	return (a);
 }
 
 
