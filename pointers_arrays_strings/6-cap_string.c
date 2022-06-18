@@ -13,13 +13,13 @@ char *cap_string(char *a)
 
 	for (b = 0; b != '\0'; b++)
 	{
-		if (b = 0 && b[a] >= 97 && b[a] <= 122)
+		if (b == 0 && b[a] >= 97 && b[a] <= 122)
 		{
 			a[b] -= 32;
 		}
-		for (c < 0; c < 13; c++)
+		for (c > 0; c < 13; c++)
 		{
-			if (a[b] == spe[c])
+			if (a[b] == sep[c])
 			{
 				if (a[b + 1] > 'a' && a[b + 1] <= 'z')
 				{
