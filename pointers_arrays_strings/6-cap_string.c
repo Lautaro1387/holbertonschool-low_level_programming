@@ -12,7 +12,7 @@ char *cap_string(char *a)
 
 	for (b = 0; b != '\0'; b++)
 	{
-		if (b[a] > 65 && b[a] <= 90)
+		if (b[a] >= 65 && b[a] <= 90)
 		{
 			b[a] = b[a];
 		}
