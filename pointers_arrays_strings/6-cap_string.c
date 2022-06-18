@@ -14,7 +14,11 @@ char *cap_string(char *a)
 	{
 		if (b[a] >= 65 && b[a] <= 90)
 		{
-			b[a] = b[a];
+			b[a];
+		}
+		else if (b[a] == ' ' && b[a] == '\n')
+		{
+			b[a];
 		}
 	}
 	return (a);
