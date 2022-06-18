@@ -63,4 +63,6 @@ void reverse_array(int *a, int n);
 char *string_toupper(char *s);
 /** Function that capitalizes all words of a string.**/
 char *cap_string(char *);
+/** Function that encodes a string into 1337.**/
+char *leet(char *a);
 #endif
