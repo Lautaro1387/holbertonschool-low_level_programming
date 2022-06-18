@@ -17,7 +17,6 @@ int _strcmp(char *s1, char *s2)
 	}
 	for (comp1 = 0; s2[comp1] != '\0'; comp1++)
 	{
-	}
 		if (s1[comp1] == s2[comp1])
 		{
 			comp1++;
@@ -30,4 +29,5 @@ int _strcmp(char *s1, char *s2)
 		{
 			comp1 = 2;
 		}
+	}
 }
