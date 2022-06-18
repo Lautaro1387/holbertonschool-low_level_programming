@@ -5,12 +5,14 @@
  * string_toupper - Function that changes all lowercase letters.
  * Return: return letters lowercase.
  */
-char *string_toupper(char *)
+char *string_toupper(char *s)
 {
-	int a, b;
+	int a;
 
-	a = a[*b];
-	for (a = 'A'; a <= 'Z'; a++)
+	for (a = 0; a[s] <= '\0'; a++)
 	{
-		return (a);
+		if (a[s] > 'a' && a[s] <= 'z')
+		{
+			a[s] = a[s];
+		}
 	}
