@@ -13,19 +13,15 @@ char *leet(char *a)
 	char c[] = {'a', 'e', 'o', 't', 'l'};
 	char d[] = {'A', 'E', 'O', 'T', 'L'};
 
-	for (e = 0; e[a] != '\0'; e++)
+	for (e = 0; a[e] != '\0'; e++)
 	{
-		if (a[e] == b[] && a[e] == c[] && a[e] == d[])
+	for (f = 0; c[f] != '\0'; f++)
+	{
+		if (a[e] == c[f] || a[e] == b[f])
 		{
-			a[e] = a[e];
+			c[i] = d[j];
 		}
-		for (f = 0; f < 10; f++)
-		{
-			if (a[e] = a[f])
-			{
-				a[e] = b[] + c[] + d[];
-			}
-		}
+	}
 	}
 	return (a);
 }
