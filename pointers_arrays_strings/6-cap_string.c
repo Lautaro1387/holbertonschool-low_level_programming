@@ -17,7 +17,7 @@ char *cap_string(char *a)
 		{
 			a[b] -= 32;
 		}
-		for (c > 0; c < 13; c++)
+		for (c = 0; c < 13; c++)
 		{
 			if (a[b] == sep[c])
 			{
