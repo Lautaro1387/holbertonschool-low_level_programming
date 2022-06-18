@@ -9,18 +9,23 @@
  */
 int _strcmp(char *s1, char *s2)
 {
-	int comp = 0;
+	int comp1, comp2;
 
-	for (comp = 0; s1[comp] != '\0'; comp++)
+	for (comp1 = 0; s1[comp1] != '\0'; comp1++)
 	{
-		if (comp == s1) || (comp == s2)
-		{
-			s1++;
-			s2++;
-		}
-		else if ((comp == '\0' && comp != '\0'))
-		{
-			comp = 1;
-		}
+		s1[comp1] = s2[comp2];
 	}
+	for (comp2 = 0; s2[comp2] != '\0'; comp2++)
+	{
+	}
+		if (comp1 == comp2)
+		{
+			comp1++;
+			comp2++;
+		}
+		else if ((comp1 == '\0' && comp2 != '\0') || (comp1 != '\0' && comp2 == '\0') || comp1 != comp2)
+		{
+			comp1 = 1;
+			comp2 = 1;
+		}
 }
