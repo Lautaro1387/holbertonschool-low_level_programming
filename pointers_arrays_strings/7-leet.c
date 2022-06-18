@@ -8,7 +8,7 @@
  */
 char *leet(char *a)
 {
-	int e , f;
+	int e, f;
 	char b[] = {4, 3, 0, 7, 1};
 	char c[] = {'a', 'e', 'o', 't', 'l'};
 	char d[] = {'A', 'E', 'O', 'T', 'L'};
@@ -19,7 +19,7 @@ char *leet(char *a)
 	{
 		if (a[e] == c[f] || a[e] == d[f])
 		{
-			c[e] = b[f];
+			a[e] = b[f];
 		}
 	}
 	}
