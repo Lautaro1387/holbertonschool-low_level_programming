@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <string.h>
 /**
- * cap_string - Function that capitalizes all words of a string.
+ * cap_string - Function that capitalizes.
  * @a: Pointer element.
  * Return: Capitalizes all words.
  */
@@ -20,7 +20,7 @@ char *cap_string(char *a)
 			sep[13] = c;
 		}
 	}
-	return (a);
+	return (c);
 }
 
 
