@@ -10,9 +10,9 @@ void reverse_array(int *a, int n)
 {
 	int b, c, d;
 
-	c = strlen(a);
+	c = strlen(*a);
 
-	for (b = 0; b[a] != '\0' && b < n; b++)
+	for (b = 0; b < n; b++)
 	{
 		d = a[b];
 		a[b] = a[c - b - 1];
