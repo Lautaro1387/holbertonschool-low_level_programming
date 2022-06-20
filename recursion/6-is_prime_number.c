@@ -7,12 +7,12 @@
  */
 int is_prime_number(int n)
 {
-	int a[] = {}
-	if (n )
+
+	if (n > 1)
 	{
 		return (1);
 	}
-	if ()
+	else
 	{
 		return (0);
 	}
