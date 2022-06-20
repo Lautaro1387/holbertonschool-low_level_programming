@@ -4,7 +4,7 @@
  * print_rev_recursion - Function that prints a string in reverse.
  * @s: Pointer element.
  */
-void _print_rev_recursion(char *s);
+void _print_rev_recursion(char *s)
 {
 	int a = 0;
 
