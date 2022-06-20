@@ -6,8 +6,9 @@
  */
 void _puts_recursion(char *s)
 {
-	if (!s)
-	{
-	printf("%s\n", s);
-	}
+	int a;
+
+	_putchar(s[a]);
+	_puts_recursion(s);
+	_putchar(10);
 }
