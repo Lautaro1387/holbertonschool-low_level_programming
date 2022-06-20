@@ -1,6 +1,7 @@
 #include "main.h"
 #include <string.h>
 #include <stdio.h>
+#include <stddef.h>
 /**
  * _strchr - Function that locates a character in a string.
  * @s: Pointer element.
