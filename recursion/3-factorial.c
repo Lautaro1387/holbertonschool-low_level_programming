@@ -11,9 +11,12 @@ int factorial(int n)
 	{
 		return (-1);
 	}
-	if (n >= 0)
+	if (n == 0)
 	{
 		return (1);
 	}
+	else
+	{
 	return (n * factorial(n - 1));
+	}
 }
