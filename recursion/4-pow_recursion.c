@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * _pow_recursion - Function that returns the vlaue of x raised to te power of y.
+ * _pow_recursion - Function that returns the value of x raised.
  * @x: Element.
  * @y: Element.
  * Return: If y is lower than 0. The function should return -1.
