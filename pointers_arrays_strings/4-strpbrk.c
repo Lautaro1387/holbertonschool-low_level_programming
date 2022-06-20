@@ -16,14 +16,10 @@ char *_strpbrk(char *s, char *accept)
 		{
 			if (s[a] == accept[b])
 			{
-				s[a] = accept[b];
 				return (s);
 			}
-			else if (s[a] == 0)
-			{
-				return (NULL);
-			}
 		}
+		s++;
 	}
-	return (0);
+	return (NULL);
 }
