@@ -8,11 +8,24 @@
  */
 unsigned int _strspn(char *s, char *accept)
 {
-	int a;
+	int a, b, c, d;
 
+	c = 0;
+	d = 0;
 	for (a = 0; s[a] != '\0'; a++)
 	{
-		accept[a] = s[a];
+	for (b = 0; accept[b] != '\0'; b++)
+	{
+		if (s[a] == accept[b])
+		{
+			c++;
+			d = 1;
+		}
 	}
-	return (s[accept]);
+	if (d == 0)
+	{
+		return (c);
+	}
+	}
+	return (0);
 }
