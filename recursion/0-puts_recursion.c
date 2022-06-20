@@ -11,8 +11,8 @@ void _puts_recursion(char *s)
 	if (s[a] != 0)
 	{
 	_putchar(s[a]);
-	s++;
-	_puts_recursion(s[a]);
+	a++;
+	_puts_recursion(&s[a]);
 	}
 	else
 	_putchar(10);
