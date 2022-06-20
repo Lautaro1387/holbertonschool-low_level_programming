@@ -5,4 +5,6 @@ int _putchar(char);
 void _puts_recursion(char *s);
 /** Function that prints a string in reverse. */
 void _print_rev_recursion(char *s);
+/** Function that returns the length of a string. */
+int _strlen_recursion(char *s);
 #endif
