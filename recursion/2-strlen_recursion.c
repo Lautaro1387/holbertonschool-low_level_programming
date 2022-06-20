@@ -13,6 +13,7 @@ int _strlen_recursion(char *s)
 	if (*s)
 	{
 		_strlen_recursion(s[a]);
+		_putchar(s[a]);
 	}
-	return (s[a]);
+	return (&s[a]);
 }
