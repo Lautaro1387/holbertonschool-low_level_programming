@@ -10,7 +10,6 @@ void _puts_recursion(char *s)
 
 	for (a = 0; s[a] != '\0'; a++)
 	{
-		puts(s[a]);
-		_putchar(10);
+		printf("%d\n", a);
 	}
 }
