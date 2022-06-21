@@ -2,11 +2,13 @@
 #include <stdlib.h>
 int main(int argc, char *argv[])
 {
-	int a;
+	int a, b;
 
+	a = argv[0];
+	b = argv[0];
 	for (a = 0; a < argc; a++)
 	{
-		printf("%i\n", argv[a] * argv[a]);
+		printf("%s\n", a * b);
 		if (argv[a] == 0)
 		{
 		printf("Error");
