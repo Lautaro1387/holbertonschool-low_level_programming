@@ -2,11 +2,11 @@
 #include <stdlib.h>
 int main(int argc, char *argv[])
 {
-	int a, b;
+	int a;
 
 	for (a = 0; a < argc; a++)
 	{
-		printf("%s\n", agrv[a]);
+		printf("%s\n", argv[a]);
 	}
 	exit(0);
 }
