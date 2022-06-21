@@ -1,15 +1,15 @@
 #include <stdio.h>
+#include <stdlib.h>
 /**
  * main - Function.
  * @argc: Element.
  * @argv: Pointer element.
  */
-void main(int argc, char *argv[])
+int main(int argc, char **argv)
 {
-	if (argc != 2)
+	while (argc--)
 	{
-		printf("Lautaro.\n");
-		exit(1);
+		printf("%s\n", *argv++);
+	return (0);
 	}
-	printf("Nombre %s", argv[1]);
 }
