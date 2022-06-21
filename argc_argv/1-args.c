@@ -1,16 +1,15 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- * main - Function.
+ * main - Function main.
  * @argc: Element.
  * @argv: Pointer element.
- * Return: 0.
  */
 int main(int argc, char *argv[])
 {
-	while (argc--)
+	while(argc--)
 	{
-		printf("%s\n", *argv++);
+		printf("%i%s\n", *argv++)
 	}
 	exit(0);
 }
