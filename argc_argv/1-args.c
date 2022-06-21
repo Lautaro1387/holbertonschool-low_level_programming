@@ -8,8 +8,8 @@
  */
 int main(int argc, char *argv[])
 {
-	argv(void);
-		printf("%d\n", (argc - 1));
-		printf("%d\n", (argc - 1));
+	(void)argv;
+		printf("%d\n", (argc));
+		printf("%d\n", (argc));
 	exit(0);
 }
