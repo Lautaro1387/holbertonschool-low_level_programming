@@ -4,6 +4,7 @@
  * main - Function.
  * @argc: Element.
  * @argv: Pointer element.
+ * Return: 0.
  */
 int main(int argc, char **argv)
 {
