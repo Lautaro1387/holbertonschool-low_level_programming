@@ -6,8 +6,8 @@ int main(int argc, char *argv[])
 
 	for (a = 0; a < argc; a++)
 	{
-		printf("%s\n", argv[a * a]);
-		if (argv[a] == 0)	
+		printf("%i\n", argv[a] * argv[a]);
+		if (argv[a] == 0)
 		{
 		printf("Error");
 		}
