@@ -4,12 +4,12 @@
  * main - Function main.
  * @argc: Element.
  * @argv: Pointer element.
+ * Return: 0.
  */
 int main(int argc, char *argv[])
 {
-	while(argc--)
-	{
-		printf("%s%d\n", *argv++);
-	}
+	argv(void);
+		printf("%d\n", (argc - 1));
+		printf("%d\n", (argc - 1));
 	exit(0);
 }
