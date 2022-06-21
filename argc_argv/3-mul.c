@@ -4,11 +4,11 @@ int main(int argc, char *argv[])
 {
 	int a, b;
 
-	a = argv[0];
-	b = argv[0];
+	a = *argv[0];
+	b = *argv[0];
 	for (a = 0; a < argc; a++)
 	{
-		printf("%s\n", a * b);
+		printf("%s\n", argv[a * b]);
 		if (argv[a] == 0)
 		{
 		printf("Error");
