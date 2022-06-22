@@ -11,13 +11,13 @@
 int _sqrt(int n, int a)
 {
 
-	if (a > n / 2)
-	{
-		return (-1);
-	}
-	else if (a * a == n)
+	if (a * a == n)
 	{
 		return (a);
+	}
+	if (a > n / 2)
+	{
+	return (-1);
 	}
 	else
 	{
