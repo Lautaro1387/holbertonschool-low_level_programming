@@ -10,7 +10,7 @@ int main(int argc, char *argv[])
 {
 	int a, b, c;
 
-	a = atoi(argv[0]);
+	b = atoi(argv[0]);
 	c = atoi(argv[0]);
 	for (a = 0; a < argc; a++)
 	{
@@ -18,7 +18,7 @@ int main(int argc, char *argv[])
 
 	if (*argv[a] == 0)
 	{
-	printf("Error%s\n", *argv[a]);
+	printf("Error%d\n", *argv[a]);
 	}
 	}
 	exit(0);
