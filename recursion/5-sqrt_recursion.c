@@ -22,9 +22,14 @@ int _sqrt_recursion(int n)
 	}
 	else
 	{
-	return (a = sqrt(n));
+	return (a);
 	}
 }
+/**
+ * _sqrt - Function that the return sqrt the n.
+ * @n: Element.
+ * Return: sqrt the n.
+ */
 int _sqrt(int n)
 {
 	return (_sqrt_recursion(sqrt(n)));
