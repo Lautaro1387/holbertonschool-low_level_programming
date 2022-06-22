@@ -16,9 +16,9 @@ int main(int argc, char *argv[])
 	{
 	printf("%d\n", b * c);
 
-	if (*argv[] == 0)
+	if (*argv[a] == 0)
 	{
-	printf("Error%s\n", *argv[]);
+	printf("Error%s\n", *argv[a]);
 	}
 	}
 	exit(0);
