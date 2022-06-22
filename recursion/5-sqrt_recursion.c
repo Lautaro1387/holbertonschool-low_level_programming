@@ -8,12 +8,12 @@
  * @a: Element.
  * Return: If n does not have a natural square root. Should return -1.
  */
-int _sqrt(int n, int a)
+int _sqrt(int a, int n)
 {
 
 	if (a * a == n)
 	{
-		return (a);
+	return (a);
 	}
 	if (a > n / 2)
 	{
