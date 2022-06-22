@@ -17,7 +17,7 @@ int main(int argc, char *argv[])
 		printf("%s\n", b * c);
 		if (argv[a] == 0)
 		{
-		printf("Error");
+		printf("Error%s\n");
 		}
 	}
 	exit(0);
