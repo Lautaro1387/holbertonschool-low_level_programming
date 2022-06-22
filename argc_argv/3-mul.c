@@ -1,14 +1,20 @@
 #include <stdio.h>
 #include <stdlib.h>
+/**
+ * main - Function.
+ * @argc: Element.
+ * @argv: Pointer element.
+ * Return: 0.
+ */
 int main(int argc, char *argv[])
 {
-	int a, b;
+	int a, b, c;
 
-	a = *argv[0];
-	b = *argv[0];
+	a = atoi(argv[0]);
+	c = atoi(argv[0]);
 	for (a = 0; a < argc; a++)
 	{
-		printf("%s\n", argv[a * b]);
+		printf("%s\n", b * c);
 		if (argv[a] == 0)
 		{
 		printf("Error");
