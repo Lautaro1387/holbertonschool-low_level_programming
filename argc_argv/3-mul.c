@@ -17,6 +17,10 @@ int main(int argc, char *argv[])
 	{
 	printf("%d\n", b * c);
 	}
+	else if (argv[1] == argv[2])
+	{
 	printf("Error\n");
 	return (1);
+	}
+	exit(0);
 }
