@@ -15,9 +15,9 @@ int _sqrt(int n, int a)
 	{
 		return (-1);
 	}
-	if (a * a == n)
+	else if (a * a == n)
 	{
-		return (1);
+		return (a);
 	}
 	else
 	{
