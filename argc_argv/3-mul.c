@@ -14,11 +14,12 @@ int main(int argc, char *argv[])
 	c = atoi(argv[0]);
 	for (a = 0; a < argc; a++)
 	{
-		printf("%s\n", b * c);
-		if (argv[a] == 0)
-		{
-		printf("Error%s\n");
-		}
+	printf("%d\n", b * c);
+
+	if (*argv[] == 0)
+	{
+	printf("Error%s\n", *argv[]);
+	}
 	}
 	exit(0);
 }
