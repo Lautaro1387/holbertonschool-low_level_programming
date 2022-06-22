@@ -8,9 +8,9 @@
  * @n: Element.
  * Return: If n does not have a natural square root. Should return -1.
  */
-int _sqrt_recursion(int n)
+int _sqrt(int n)
 {
-	int a = sqrt(n);
+	int a = _sqrt(n);
 
 	if (n != a)
 	{
@@ -26,11 +26,11 @@ int _sqrt_recursion(int n)
 	}
 }
 /**
- * _sqrt - Function that the return sqrt the n.
+ * _sqrt_recursion - Function that the return sqrt the n.
  * @n: Element.
  * Return: sqrt the n.
  */
-int _sqrt(int n)
+int _sqrt_recursion(int n)
 {
-	return (_sqrt_recursion(sqrt(n)));
+	return (_sqrt(n));
 }
