@@ -5,12 +5,13 @@
 /**
  * _sqrt - Function that returns the natural square root of a number.
  * @n: Element.
+ * @a: Element.
  * Return: If n does not have a natural square root. Should return -1.
  */
 int _sqrt(int n, int a)
 {
 
-	if (n != n / 2)
+	if (a > n / 2)
 	{
 		return (-1);
 	}
