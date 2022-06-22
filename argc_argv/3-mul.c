@@ -10,15 +10,15 @@ int main(int argc, char *argv[])
 {
 	int a, b, c;
 
-	b = atoi(argv[0]);
-	c = atoi(argv[0]);
+	b = atoi(argv[a]);
+	c = atoi(argv[a]);
 	for (a = 0; a < argc; a++)
 	{
 	printf("%d\n", b * c);
 
 	if (*argv[a] == 0)
 	{
-	printf("Error%d\n", *argv[a]);
+	printf("Error");
 	}
 	}
 	exit(0);
