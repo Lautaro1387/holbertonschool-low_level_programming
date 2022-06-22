@@ -8,18 +8,18 @@
  */
 int main(int argc, char *argv[])
 {
-	int a, b, c;
+	int b, c;
 
-	a = **argv;
-	b = atoi(argv[a]);
-	c = atoi(argv[a]);
-	for (a = 0; a < argc; a++)
+	(void)argc;
+	b = atoi(argv[1]);
+	c = atoi(argv[2]);
+	if (argv[1] && argv[2])
 	{
 	printf("%d\n", b * c);
-
 	if (*argv[a] == 0)
 	{
-	printf("Error");
+	printf("Error\n");
+	return (1);
 	}
 	}
 	exit(0);
