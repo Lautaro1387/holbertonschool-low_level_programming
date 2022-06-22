@@ -1,19 +1,39 @@
-#include "main.h"
 #include <stdio.h>
+#include "main.h"
 /**
- * is_prime_number - Function that return 1 if the integer is a prime number.
- * @n: Element.
- * Return: 1 If the input integer is a prime number, otherwise return 0.
+ * _prime - returns the natural square root of a number.
+ * @n: square root this.
+ * @i: Element.
+ * Return: natural square root.
  */
-int is_prime_number(int n)
+
+int _prime(int i, int n)
 {
 
-	if (n > 1)
+	if (i <= (n / 2))
 	{
-		return (1);
-	}
-	else
+	if (n % i == 0)
 	{
 		return (0);
 	}
+		return (_prime(i + 1, n));
+	}
+	else
+	{
+	if (n > 1)
+	{
+	return (1);
+	}
+		return (0);
+	}
+}
+
+/**
+ * is_prime_number - returns the natural square root of a number.
+ * @n: square root this.
+ * Return: natural square root
+ */
+int is_prime_number(int n)
+{
+	return (_prime(2, n));
 }

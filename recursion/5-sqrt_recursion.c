@@ -3,26 +3,24 @@
 #include <math.h>
 
 /**
- * _sqrt_recursion - Function that returns the natural
- * square root of a number.
+ * _sqrt - Function that returns the natural square root of a number.
  * @n: Element.
  * Return: If n does not have a natural square root. Should return -1.
  */
-int _sqrt(int n)
+int _sqrt(int n, int a)
 {
-	int a = _sqrt(n);
 
-	if (n != a)
+	if (n != n / 2)
 	{
 		return (-1);
 	}
-	if (n == a)
+	if (a * a == n)
 	{
 		return (1);
 	}
 	else
 	{
-	return (a);
+	return (_sqrt(a + 1, n));
 	}
 }
 /**
@@ -32,5 +30,5 @@ int _sqrt(int n)
  */
 int _sqrt_recursion(int n)
 {
-	return (_sqrt(n));
+	return (_sqrt(1, n));
 }
