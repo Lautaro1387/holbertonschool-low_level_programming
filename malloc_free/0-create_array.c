@@ -9,8 +9,9 @@
  */
 char *create_array(unsigned int size, char c)
 {
-	int a = create_array(argv[c]);
+	char = *string;
 
+	string = malloc(sizeof(char));
 	if (size == 0)
 	{
 	return (NULL);
