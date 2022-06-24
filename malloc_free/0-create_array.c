@@ -17,7 +17,7 @@ char *create_array(unsigned int size, char c)
 	}
 	if (size != 0)
 	{
-	size[c] = string;
+	string[size] = c;
 	return (string);
 	}
 	else
