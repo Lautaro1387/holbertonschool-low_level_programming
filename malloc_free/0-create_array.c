@@ -12,7 +12,7 @@ char *create_array(unsigned int size, char c)
 	char *string = malloc(sizeof(char));
 	unsigned int a;
 
-	if (string[size] == 0 && string[size] != '\0')
+	if (string[size] == 0)
 	{
 	return (NULL);
 	}
@@ -20,5 +20,5 @@ char *create_array(unsigned int size, char c)
 	{
 		string[a] = c;
 	}
-	return (NULL);
+	return (string);
 }
