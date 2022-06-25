@@ -15,7 +15,14 @@ char *str_concat(char *s1, char *s2)
 	char c2 = strlen(s2);
 	char *c;
 
-	if (s1 == NULL)
+	while (s1 && s1[c1])
+	{
+		c1++;
+	}
+	while (s2 && s2[c2])
+	{
+		c2++;
+	}
 	return (NULL);
 	if (s2 == NULL)
 	return (NULL);
