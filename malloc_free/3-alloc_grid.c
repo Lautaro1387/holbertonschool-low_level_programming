@@ -11,7 +11,7 @@
 int **alloc_grid(int width, int height)
 {
 	int *a;
-	int b = 0, c = 0;
+	int b = 0, c = 0, int height = 0, int width = 0;
 
 	while (b < width)
 	{
@@ -28,8 +28,8 @@ int **alloc_grid(int width, int height)
 	}
 	while (c < width && c < height)
 	{
-		a[c] = width[c];
-		a[c] = heigth[c];
+		a[c] = width;
+		a[c] = heigth;
 		c++;
 	}
 	if ((width[a] == 0 && height[a] == 0) || (width[a] < 0 && height[a] < 0))
