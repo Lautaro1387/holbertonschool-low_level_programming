@@ -26,7 +26,7 @@ char *str_concat(char *s1, char *s2)
 		c[a] = s1[a];
 	for (b = 0; s2[b]; b++)
 		c[b] = s2[b];
-	if (c == a && c == b)
+	if (c[a] = s1[a] && c[a] == s2[b])
 	c[a + b] = '\0';
 	return (c);
 }
