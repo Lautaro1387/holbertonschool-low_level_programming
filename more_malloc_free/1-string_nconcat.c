@@ -16,12 +16,10 @@ while (s1 && s1[c1])
 while (s2 && s2[c2])
 	c2++;
 
-if (n < c2)
-a = malloc(sizeof(char) * (c1 + n + 1));
-else
-a = malloc(sizeof(char) * (c1 + c2 + 1));
-
-if (!a)
+if (n >= c2)
+n = c2;
+a = malloc(sizeof(char) * (c1 + n) + 1);
+if (a = NULL)
 	return (NULL);
 
 while (b < c1)
@@ -30,11 +28,10 @@ a[b] = s1[b];
 b++;
 }
 
-while (n < c2 && b < (c1 + n))
-a[b++] = s2[i++];
-
-while (n >= c2 && b < (c1 + c2))
-a[b++] = s2[i++];
+i = b;
+while (i < (b + n))
+a[i] = s2[i - b];
+i++;
 
 a[b] = '\0';
 return (a);
