@@ -35,10 +35,12 @@ int **alloc_grid(int width, int height)
 			}
 		}
 	}
-	b++;
+	for (b = 0; b < height; b++)
+	{
 	for (c = 0; c < width; c++)
 	{
-		a[b + c] = 0;
+		a[b][c] = 0;
+	}
 	}
 	return (a);
 }
