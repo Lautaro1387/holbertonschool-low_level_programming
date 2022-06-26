@@ -22,7 +22,6 @@ c2++;
 c3 = malloc(sizeof(char) * (c1 + c2 + 1));
 if (c3 == NULL)
 return (NULL);
-b = 0;
 while (n >= c2)
 {
 c2++;
