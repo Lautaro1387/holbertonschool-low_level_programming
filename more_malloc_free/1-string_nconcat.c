@@ -22,9 +22,7 @@ else
 a = malloc(sizeof(char) * (c1 + c2 + 1));
 
 if (!a)
-{
 	return (NULL);
-}
 
 while (b < c1)
 {
