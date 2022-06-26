@@ -10,7 +10,7 @@ void free_grid(int **grid, int height)
 {
 	int b;
 
-	grid = malloc(sizeof(int) + alloc_grid);
+	grid = malloc(sizeof(int));
 	if (grid == NULL)
 	{
 		return (NULL);
