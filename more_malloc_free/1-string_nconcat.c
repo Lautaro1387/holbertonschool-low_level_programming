@@ -11,11 +11,11 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 unsigned int b = 0, i = 0, c1 = 0, c2 = 0;
 char *a;
 
-for (; s1 && s1[c1];)
+while (s1 && s1[c1])
 {
 	c1++;
 }
-for (; s2 && s2[c2];)
+while (s2 && s2[c2])
 {
 	c2++;
 }
@@ -30,14 +30,14 @@ if (a == NULL)
 	return (NULL);
 }
 
-for (; b < c1;)
+while (b < c1)
 a[b] = s1[b];
 b++;
 
-for (; n < c2 && b < (c1 + n);)
+while (n < c2 && b < (c1 + n))
 a[b++] = s2[i++];
 
-for (; n >= c2 && b < (c1 + c2);)
+while (n >= c2 && b < (c1 + c2))
 a[b++] = s2[i++];
 
 a[b] = '\0';
