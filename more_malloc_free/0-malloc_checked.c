@@ -7,13 +7,13 @@ void *malloc_checked(unsigned int b)
 {
 	int *a, c;
 
-	a = malloc(sizeof(a) * c);
+	a = malloc(sizeof(*a) * b);
 	if (a == NULL)
 	{
 		exit(98);
 	}
-	for (b = 0; b < c; b++)
+	for (c = 0; c < b; c++)
 	{
-	a[b] = b;
+	a[c] = c;
 	}
 }
