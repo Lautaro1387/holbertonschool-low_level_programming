@@ -7,24 +7,21 @@
  */
 int *array_range(int min, int max)
 {
-	int *a, b, c;
+	int *a;
+	unsigned int b;
 
 	if (min > max)
 	{
 		return (NULL);
 	}
-	a = malloc(sizeof(int) * (max * min));
+	a = malloc(sizeof(int) * (max - min + 1));
 	if (a == NULL)
 	{
 		return (NULL);
 	}
-	for (b = 0; b < min; b++)
+	for (b = 0; b < (max - min + 1); b++)
 	{
-		a[b] = min;
-	}
-	for (c = 0; c < max; c++)
-	{
-		a[c] = max;
+		a[b] = b + min;
 	}
 	return (a);
 }
