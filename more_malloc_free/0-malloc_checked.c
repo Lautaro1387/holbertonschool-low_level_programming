@@ -5,15 +5,11 @@
  */
 void *malloc_checked(unsigned int b)
 {
-	int *a, c;
+	int *a;
 
-	a = malloc(sizeof(*a) * b);
+	a = malloc(b);
 	if (a == NULL)
 	{
 		exit(98);
-	}
-	for (c = 0; c < b; c++)
-	{
-	a[c] = c;
 	}
 }
