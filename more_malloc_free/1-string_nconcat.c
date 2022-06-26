@@ -19,25 +19,13 @@ while (s2 && s2[c2])
 {
 c2++;
 }
-c3 = malloc(sizeof(char) * (c1 + c2[n] + 1));
+c3 = malloc(sizeof(char) * (c1 + c2 + 1));
 if (c3 == NULL)
 return (NULL);
 b = 0;
-if (s1)
+while (n >= s2)
 {
-while (n >= c1)
-{
-c3[n] = s1[n];
-n++;
-}
-}
-if (s2)
-{
-while (n >= (c1 + c2))
-{
-c3[n] = s2[b];
-b++;
-}
+c3[c2];
 }
 c3[n] = '\0';
 return (c3);
