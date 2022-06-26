@@ -12,9 +12,9 @@ char *a;
 unsigned int b, i, c1, c2;
 
 if (s1 == NULL)
-	return (NULL);
+s1 = "";
 if (s2 == NULL)
-	return (NULL);
+s2 = "";
 
 for (c1 = 0; s1[c1]; c1++)
 {
