@@ -8,6 +8,7 @@
  */
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
+int a;
 unsigned int c1 = 0, c2 = 0;
 char *c3;
 
@@ -19,6 +20,7 @@ while (s2 && s2[c2])
 {
 c2++;
 }
+for (a = 0; a < n; a++)
 c3 = malloc(sizeof(char) * (c1 + c2 + 1));
 if (c3 == NULL)
 return (NULL);
