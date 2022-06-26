@@ -2,6 +2,7 @@
 /**
  * *malloc_checked - Function that allocates memory using malloc.
  * @b: Element.
+ * Return: a.
  */
 void *malloc_checked(unsigned int b)
 {
