@@ -16,28 +16,25 @@ if (s1 == NULL)
 if (s2 == NULL)
 	return (NULL);
 
-while (s1 && s1[c1])
-	c1++;
-while (s2 && s2[c2])
-	c2++;
-
+for (c1 = 0; s1[c1]; c1++)
+{
+}
+for (c2 = 0; s2[c2]; c2++)
+{
+}
 if (n >= c2)
 n = c2;
 a = malloc(sizeof(char) * (c1 + n) + 1);
 if (a == NULL)
 	return (NULL);
-
-while (b < c1)
+for (b = 0; b < c1; b++)
 {
 a[b] = s1[b];
-b++;
 }
 
-i = b;
-while (i < (b + n))
+for (i = b; i < (b + n); i++)
 a[i] = s2[i - b];
-i++;
 
-a[b] = '\0';
+a[i] = '\0';
 return (a);
 }
