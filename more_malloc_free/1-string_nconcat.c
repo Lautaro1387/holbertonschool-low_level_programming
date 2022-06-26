@@ -28,7 +28,7 @@ for (i = 0; i < c1; i++)
 a[i] = s1[i];
 
 for (i = 0; i < c2; i++)
-a[i+c1] = s2[i];
-a[i]='\0';
+a[i + c1] = s2[i];
+a[i] = '\0';
 return (a);
 }
