@@ -19,7 +19,7 @@ while (s2 && s2[c2])
 {
 c2++;
 }
-c3 = malloc(sizeof(char) * (c1 + s2[n] + 1));
+c3 = malloc(sizeof(char) * (c1 + c2[n] + 1));
 if (c3 == NULL)
 return (NULL);
 b = 0;
