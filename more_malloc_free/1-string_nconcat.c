@@ -26,7 +26,7 @@ for (c2 = 0; s2[c2]; c2++)
 if (n >= c2)
 n = c2;
 
-a = malloc(sizeof(char) * (n + c1) + 1);
+a = malloc(sizeof(char) * (n + c1) + 6);
 if (a == NULL)
 	return (NULL);
 for (b = 0; b < c1; b++)
