@@ -14,9 +14,9 @@ char *a;
 
 c1 = strlen(s1);
 c2 = strlen(s2);
-c3 = s1 + s2 + 1;
+c3 = c1 + c2 + 1;
 
-a = char *malloc(c3);
+a = malloc(c3);
 
 for (i = 0; i < c1; i++)
 a[i] = s1[i];
