@@ -24,7 +24,7 @@ if (c3 == NULL)
 return (NULL);
 while (n >= c2)
 {
-c2++;
+c3[s2]++;
 }
 c3[n] = '\0';
 return (c3);
