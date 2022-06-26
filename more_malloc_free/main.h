@@ -1,5 +1,7 @@
 #ifndef MAIN_H
 #define MAIN_H
+#include <stdio.h>
+#include <stdlib.h>
 /** Function that allocates memory using malloc. */
 void *malloc_checked(unsigned int b);
 /** Function that concatenates two strings. */
