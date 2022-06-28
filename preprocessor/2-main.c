@@ -4,7 +4,8 @@
  * main - Filename.
  * Return: void.
  */
-void main(void)
+int main(void)
 {
-printf("%s\n", filename);
+	printf("%s\n", file);
+	return (0);
 }
