@@ -1,4 +1,4 @@
 #ifndef PROCESSOR
 #define PROCESSOR
-#define ABS(x) (x)
+#define ABS(x) (abs(x))
 #endif
