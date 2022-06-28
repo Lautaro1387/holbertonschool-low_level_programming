@@ -1,7 +1,7 @@
-#define ARCHIVE "2-main.c"
 #include <stdio.h>
-
+#include <stdlib.h>
 void main(void)
 {
-	printf("%s\n", ARCHIVE);
+int x[] = { 2-main.c };
+printf("%s\n", *x);
 }
