@@ -2,6 +2,5 @@
 #include <stdlib.h>
 void main(void)
 {
-char name[] = { '2-main.c' };
-printf("%s\n", &name);
+printf("%s\n", filename);
 }
