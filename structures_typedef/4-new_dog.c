@@ -6,22 +6,6 @@
  * @str: Pointer element.
  * Return: dog.
  */
-int _strlen(char *s)
-{
-	int i;
-
-	i = 0;
-	while (s[i] != 0)
-	{
-		i++;
-	}
-	return (0);
-}
-/**
- * _str - Function.
- * @str: Pointer element.
- * Return: dog.
- */
 char *_str(char *str)
 {
 	unsigned int a, len;
