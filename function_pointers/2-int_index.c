@@ -10,10 +10,10 @@ int int_index(int *array, int size, int (*cmp)(int))
 {
 	int size2, x;
 
-        if (size <= 0)
-        {
-                return (-1);
-        }
+	if (size <= 0)
+	{
+		return (-1);
+	}
 	if (cmp && array)
 	{
 	for (size2 = 0; size2 < size; size2++)
