@@ -32,6 +32,7 @@ char *_str(char *str)
  * @name: Pointer element.
  * @age: Element.
  * @owner: Pointer element.
+ * Return: d.
  */
 dog_t *new_dog(char *name, float age, char *owner)
 {
@@ -51,6 +52,7 @@ dog_t *new_dog(char *name, float age, char *owner)
 	d->owner = _str(owner);
 	if (!d->owner)
 	{
+	free(d->name);
 	free(d);
 	return (NULL);
 	}
