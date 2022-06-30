@@ -1,5 +1,8 @@
 #ifndef CALCULATOR
 #define CALCULATOR
+#include <stddef.h>
+#include <stdio.h>
+#include <stdlib.h>
 /**
  * struct op - Struct op
  *
