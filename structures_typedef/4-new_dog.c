@@ -6,6 +6,22 @@
  * @str: Pointer element.
  * Return: dog.
  */
+int _strlen(char *s)
+{
+	int i;
+
+	i = 0;
+	while (s[i] != 0)
+	{
+		i++;
+	}
+	return (0);
+}
+/**
+ * _str - Function.
+ * @str: Pointer element.
+ * Return: dog.
+ */
 char *_str(char *str)
 {
 	unsigned int a, len;
@@ -18,7 +34,7 @@ char *_str(char *str)
 	dog = (char *)malloc((sizeof(char) * len + 1));
 	if (!dog)
 		return (NULL);
-	for (a = 0; a <= len; len++)
+	for (a = 0; a <= len; a++)
 	{
 		dog[a] = str[a];
 	}
