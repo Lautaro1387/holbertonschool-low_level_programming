@@ -4,7 +4,6 @@
  * @s: Pointer element.
  * Return: The function that corresponds to the operator given as a parameter.
  */
-/** 1 if, 1 while */
 int (*get_op_func(char *s))(int, int)
 {
 	op_t ops[] = {
@@ -12,7 +11,7 @@ int (*get_op_func(char *s))(int, int)
 	{"-", op_sub},
 	{"*", op_mul},
 	{"/", op_div},
-	{"%", op_div},
+	{"%", op_mod},
 	{NULL, NULL}
 	};
 	int i = 0;
