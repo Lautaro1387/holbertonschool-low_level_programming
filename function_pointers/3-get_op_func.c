@@ -7,22 +7,24 @@
 /** 1 if, 1 while */
 int (*get_op_func(char *s))(int, int)
 {
-	int a;
+	op_t ops[] = {
+	{"+", op_add},
+	{"-", op_sub},
+	{"*", op_mul},
+	{"/", op_div},
+	{"%", op_div},
+	{NULL, NULL}
+	};
+	int i = 0;
 
-	while (a[s] == get_op_func)
+	while (i <= 4 && ops[i].op[0] != s[0])
 	{
-	(get_op_func)("+");
-		return (op_add);
-	(get_op_func)("-");
-		return (op_sub);
-	(get_op_func)("*");
-		return (op_mul);
-	(get_op_func)("/");
-		return (op_div);
-	(get_op_func)("%");
-		return (op_mod);
+		i++;
 	}
-	x = get_op_func (a[s]);
-	if (x != 0)
-	return (NULL);
+	if (i > 4 || s[1])
+	{
+		printf("Error\n");
+		exit(99);
+	}
+	return (ops[i].f);
 }

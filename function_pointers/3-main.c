@@ -1,12 +1,17 @@
 #include "3-calc.h"
-/** solo puedo usar main, atoi para llamar a op_functions en int y solo usar 3 ifs. */
-int main()
+/**
+ * main - Function main.
+ * @argc: Argument.
+ * @argv: Pointer element.
+ * Return: 0.
+ */
+int main(int  argc, char *argv[])
 {
-	int entero;
-	if (argc != 0)
-	entero == atoi(op_add);
-	entero == atoi(op_sub);
-	entero == atoi(op_mul);
-		printf
+	if (argc != 4)
+	{
+		printf("Error\n");
+		exit(98);
+	}
+	printf ("%d\n", (get_op_func(argv[2]))(atoi(argv[1]), atoi(argv[3])));
 	return (0);
 }
