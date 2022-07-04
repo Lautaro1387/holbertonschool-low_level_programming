@@ -10,7 +10,7 @@ clean : $(NAME)
 	$(RM) *~ $(NAME)
 oclean : $(OBJ)
 	$(RM) $(OBJ)
-fclean : $(NAME) $(OBJ)
-	$(RM) *~ $(NAME) $(OBJ)
+fclean : clean oclean
+
 re : $(SRC)
 	make -f $(SRC)
