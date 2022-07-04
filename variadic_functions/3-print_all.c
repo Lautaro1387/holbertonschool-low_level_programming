@@ -69,9 +69,9 @@ void print_all(const char * const format, ...)
 	while (format != NULL)
 	{
 		a = 0;
-		while (prints[a].letters != '\0')
+		while (prints[a].text != '\0')
 		{
-			if (prints[a].letters == format[i])
+			if (prints[a].text == format[i])
 			{
 			printf("%s", z);
 			prints[a].f(list);
