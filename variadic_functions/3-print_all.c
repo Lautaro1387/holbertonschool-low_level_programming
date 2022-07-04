@@ -42,6 +42,7 @@ void print_string(va_list list)
 	if (string == NULL)
 	{
 		printf("(nil)");
+		return;
 	}
 	printf("%s", string);
 }
@@ -66,7 +67,7 @@ void print_all(const char * const format, ...)
 	};
 
 	va_start(list, format);
-	while (format != NULL)
+	while (format != NULL && format[i] != '\0')
 	{
 		a = 0;
 		while (prints[a].text != '\0')
