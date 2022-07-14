@@ -1,6 +1,6 @@
 #include "lists.h"
 /**
- * add_node - Function.
+ * add_node_end - Function.
  * @head: Pointer double element.
  * @str: Const element.
  * Return: list_t
