@@ -2,18 +2,20 @@
 /**
  * print_listint - Function.
  * @h: Pointer element.
+ * Return: size_t.
  */
 size_t print_listint(const listint_t *h)
 {
 	size_t size = 0;
+
 	while (h != NULL)
 	{
 		size++;
-		if (h != NULL)
+		if (!h)
 		{
 			printf("%d\n", h->n);
 		}
-		h = h->next;
+	h = h->next;
 	}
 	return (size);
 }
