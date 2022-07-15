@@ -7,7 +7,7 @@ void free_listint2(listint_t **head)
 {
 	listint_t *free_list;
 
-	while (head)
+	while (*head)
 	{
 		free_list = *head;
 		*head = free_list->next;
@@ -15,6 +15,7 @@ void free_listint2(listint_t **head)
 	}
 	if (head == NULL)
 	{
-	printf("(nil)\n");
+		return;
 	}
+	*head = NULL;
 }
