@@ -1,5 +1,5 @@
-#ifndef FILE I/O
-#define FILE I/O
+#ifndef FILE
+#define FILE
 #include <stdio.h>
 #include <stdlib.h>
 int _putchar(char c);
