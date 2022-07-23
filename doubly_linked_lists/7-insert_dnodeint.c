@@ -1,6 +1,6 @@
 #include "lists.h"
 /**
- * inter_dnodeint_at_index - Function
+ * insert_dnodeint_at_index - Function
  * @h: Pointer element.
  * @idx: Element of type unsigned int.
  * @n: Element of type int.
