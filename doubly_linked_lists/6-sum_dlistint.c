@@ -1,6 +1,6 @@
 #include "lists.h"
 /**
- * sum_dlistint_t . Function
+ * sum_dlistint_t - Function
  * @head: Pointer element.
  * Return: int.
  */
