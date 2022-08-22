@@ -9,14 +9,15 @@
 int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 {
 	unsigned long int key_index2;
-	hash_node_t *hash = NULL;
+	hash_node_t *hash;
 
+	if (!ht)
+		return (0);
 	key_index2 = key_index((unsigned char *)key, ht->size);
 	hash = malloc(sizeof(hash_node_t));
 	if (!hash)
 		return (0);
-	if (!ht)
-		return (0);
+	hash->key = strdup(key);
 	if (!hash->key)
 	{
 		free(hash);
