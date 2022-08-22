@@ -31,11 +31,15 @@ int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 	}
 	hash->next = NULL;
 	if (!(ht->array)[key_index2])
+	{
 		(ht->array)[key_index2] = hash;
+	}
 	else
 	{
 		if (strcmp(((ht->array)[key_index2])->key, key) == 0)
+		{
 			((ht->array)[key_index2])->value = strdup(value);
+		}
 		else
 		{
 			hash->next = (ht->array)[key_index2];
