@@ -1,6 +1,7 @@
 #include "search_algos.h"
 /**
  * linear_search - Function array.
+ * @array: array.
  * @size: size_t
  * @value: value.
  * Return: int.
